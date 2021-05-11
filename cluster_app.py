@@ -1,13 +1,9 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
-from sklearn.metrics import silhouette_samples
-from matplotlib.ticker import FixedLocator, FixedFormatter
 import seaborn as sns
 sns.set()
 
