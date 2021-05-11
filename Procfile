@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run app_img_intel.py
+web: sh setup.sh && streamlit run cluster_app.py
